@@ -1,17 +1,17 @@
 [
   {
-    "title": "Web Summit",
-    "startDate": "2020-11-02T00:00:00.000Z",
-    "endDate": "2020-11-05T00:00:00.000Z",
-    "url": "https://websummit.com/",
-    "ticketsUrl": "https://websummit.com/"
+    "title": "ng-conf",
+    "startDate": "2020-04-01T00:00:00.000Z",
+    "endDate": "2020-04-03T00:00:00.000Z",
+    "url": "https://www.ng-conf.org/",
+    "ticketsUrl": "https://www.ng-conf.org/"
   },
   {
-    "title": "Web Summit",
-    "startDate": "2020-11-02T00:00:00.000Z",
-    "endDate": "2020-12-05T00:00:00.000Z",
-    "url": "https://websummit.com/",
-    "ticketsUrl": "https://websummit.com/"
+    "title": "React Europe",
+    "startDate": "2020-05-14T00:00:00.000Z",
+    "endDate": "2020-05-15T00:00:00.000Z",
+    "url": "https://www.react-europe.org/",
+    "ticketsUrl": "https://www.react-europe.org/"
   },
   {
     "title": "Web Summit",
