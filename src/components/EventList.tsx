@@ -22,12 +22,7 @@ const EventList = ({ conf }: Props) => {
     <List>
       {conf.map((c, idx) => (
         <li key={idx}>
-          <ConferenceCard
-            title={c.title}
-            date={c.date}
-            url={c.url}
-            ticketsUrl={c.ticketsUrl}
-          />
+          <ConferenceCard {...c} />
         </li>
       ))}
     </List>
