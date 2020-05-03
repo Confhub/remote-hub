@@ -4,6 +4,7 @@ import LinkButton from "./LinkButton";
 import { formatDateRange } from "../utils/date";
 
 const Wrap = styled.div`
+  position: relative;
   background: #ffffff;
   box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.09);
   border-radius: 4px;
@@ -57,14 +58,27 @@ const LinkUnderlined = styled.a`
   }
 `;
 
+const Tag = styled.div`
+  position: absolute;
+  right: 1em;
+  top: 1em;
+  padding: 0.25em;
+  background-color: #237804;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  box-shadow: 0 0 3px #000;
+`;
+
 export type Props = {
   name: string;
   date: string; // TODO: make it date
   startDate: string;
   endDate: string;
   url: string;
-  ticketsUrl: string;
+  ticketsUrl?: string | null;
   image?: string | null;
+  type: "paid" | "free";
 };
 
 const ConferenceCard = ({
@@ -74,9 +88,13 @@ const ConferenceCard = ({
   url,
   ticketsUrl,
   image,
+  type,
 }: Props) => {
+  const isFree = type === "free";
+
   return (
     <Wrap>
+      {isFree && <Tag>free</Tag>}
       {image ? <Img src={image} /> : <ImgStab />}
       <Content>
         <Heading>{name}</Heading>
@@ -85,7 +103,11 @@ const ConferenceCard = ({
           <LinkUnderlined href={url} target="_blank" rel="noopener noreferrer">
             Visit website
           </LinkUnderlined>
-          <LinkButton href={ticketsUrl}>Buy tickets</LinkButton>
+          {ticketsUrl && (
+            <LinkButton href={ticketsUrl}>
+              {isFree ? "Get" : "Buy"} tickets
+            </LinkButton>
+          )}
         </LinkWrap>
       </Content>
     </Wrap>

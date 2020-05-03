@@ -5,11 +5,6 @@
     "ticketsUrl": "https://www.crowdcast.io/e/js-remote-conf-2020/register",
     "startDate": "2020-05-14",
     "endDate": "2020-05-15",
-    "city": "Online",
-    "country": "Online",
-    "cfpUrl": "https://chuck193704.typeform.com/to/XXLjow",
-    "cfpEndDate": "2020-03-31",
-    "twitter": "@jsremoteconf",
     "type": "paid"
   },
   {
@@ -19,11 +14,6 @@
     "image": "https://halfstackconf.com/online/assets/images/halfstack-online.png",
     "startDate": "2020-05-22",
     "endDate": "2020-05-22",
-    "city": "Online",
-    "country": "Online",
-    "cfpUrl": "https://halfstackconf.com/online/",
-    "cfpEndDate": "2020-04-15",
-    "twitter": "@halfstackconf",
     "type": "paid"
   },
   {
@@ -32,9 +22,6 @@
     "ticketsUrl": "https://ti.to/forwardjs/forwardjs-ottawa-2020",
     "startDate": "2020-05-26",
     "endDate": "2020-05-29",
-    "city": "Online",
-    "country": "Online",
-    "twitter": "@forwardjs",
     "type": "paid"
   },
   {
@@ -44,9 +31,6 @@
     "image": "https://jamstackconf.com/static/jamstack-conf-og.png",
     "startDate": "2020-05-27",
     "endDate": "2020-05-28",
-    "city": "Online",
-    "country": "Online",
-    "twitter": "@jamstackconf",
     "type": "free"
   },
   {
@@ -56,9 +40,6 @@
     "image": "https://holyjs-piter.ru/assets/images/og_en.jpg",
     "startDate": "2020-06-16",
     "endDate": "2020-06-17",
-    "city": "Saint Petersburg",
-    "country": "Russia",
-    "twitter": "@HolyJSconf",
     "type": "paid"
   },
   {
@@ -67,9 +48,8 @@
     "ticketsUrl": "https://organizer.runtheworld.today/ticket/1032/checkout/REGULAR",
     "startDate": "2020-06-22",
     "endDate": "2020-06-23",
-    "city": "Brussels",
-    "country": "Belgium",
-    "twitter": "@jsconfbe"
+    "twitter": "@jsconfbe",
+    "type": "paid"
   },
   {
     "name": "OpenJS World",
@@ -78,18 +58,13 @@
     "image": "https://events.linuxfoundation.org/wp-content/uploads/2020/04/OpenJS_2020_PromoGraphics-10-2.jpg",
     "startDate": "2020-06-23",
     "endDate": "2020-06-24",
-    "city": "Online",
-    "country": "Online",
-    "twitter": "@openjsf"
+    "type": "free"
   },
   {
     "name": "ForwardJS",
     "url": "https://forwardjs.com/sanfrancisco",
     "startDate": "2020-07-20",
-    "endDate": "2020-07-24",
-    "city": "San Francisco, CA",
-    "country": "U.S.A.",
-    "twitter": "@forwardjs"
+    "endDate": "2020-07-24"
   },
   {
     "name": "CascadiaJS",
@@ -97,11 +72,6 @@
     "ticketsUrl": "https://2020.cascadiajs.com/tickets",
     "startDate": "2020-09-01",
     "endDate": "2020-09-02",
-    "city": "Online",
-    "country": "Online",
-    "cfpUrl": "https://2020.cascadiajs.com/cfp",
-    "cfpEndDate": "2020-05-15",
-    "twitter": "@cascadiajs",
     "type": "paid"
   },
   {
@@ -111,8 +81,6 @@
     "image": "https://uploads-ssl.webflow.com/5e0b4500b1dab302ef17b0f0/5e9e0545558ebf7e01e88485_Open%20Graph%20-%20Virtual%20Edition.png",
     "startDate": "2020-09-03",
     "endDate": "2020-09-04",
-    "city": "Wroclaw",
-    "country": "Poland",
-    "twitter": "@react_native_eu"
+    "type": "paid"
   }
 ]
