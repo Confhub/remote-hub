@@ -1,72 +1,118 @@
 [
   {
-    "title": "ng-conf",
-    "startDate": "2020-04-01T00:00:00.000Z",
-    "endDate": "2020-04-03T00:00:00.000Z",
-    "url": "https://www.ng-conf.org/",
-    "ticketsUrl": "https://www.ng-conf.org/"
+    "name": "JavaScript Remote Conference",
+    "url": "http://jsremoteconf.com",
+    "ticketsUrl": "https://www.crowdcast.io/e/js-remote-conf-2020/register",
+    "startDate": "2020-05-14",
+    "endDate": "2020-05-15",
+    "city": "Online",
+    "country": "Online",
+    "cfpUrl": "https://chuck193704.typeform.com/to/XXLjow",
+    "cfpEndDate": "2020-03-31",
+    "twitter": "@jsremoteconf",
+    "type": "paid"
   },
   {
-    "title": "React Europe",
-    "startDate": "2020-05-14T00:00:00.000Z",
-    "endDate": "2020-05-15T00:00:00.000Z",
-    "url": "https://www.react-europe.org/",
-    "ticketsUrl": "https://www.react-europe.org/"
+    "name": "HalfStack Online",
+    "url": "https://halfstackconf.com/online/",
+    "ticketsUrl": "https://halfstackconf.com/online/tickets/",
+    "image": "https://halfstackconf.com/online/assets/images/halfstack-online.png",
+    "startDate": "2020-05-22",
+    "endDate": "2020-05-22",
+    "city": "Online",
+    "country": "Online",
+    "cfpUrl": "https://halfstackconf.com/online/",
+    "cfpEndDate": "2020-04-15",
+    "twitter": "@halfstackconf",
+    "type": "paid"
   },
   {
-    "title": "Web Summit",
-    "startDate": "2020-11-02T00:00:00.000Z",
-    "endDate": "2021-11-05T00:00:00.000Z",
-    "url": "https://websummit.com/",
-    "ticketsUrl": "https://websummit.com/"
+    "name": "ForwardJS in the Interweb",
+    "url": "https://forwardjs.com/ottawa",
+    "ticketsUrl": "https://ti.to/forwardjs/forwardjs-ottawa-2020",
+    "startDate": "2020-05-26",
+    "endDate": "2020-05-29",
+    "city": "Online",
+    "country": "Online",
+    "twitter": "@forwardjs",
+    "type": "paid"
   },
   {
-    "title": "Web Summit",
-    "startDate": "2020-11-02T00:00:00.000Z",
-    "endDate": "2020-11-05T00:00:00.000Z",
-    "url": "https://websummit.com/",
-    "ticketsUrl": "https://websummit.com/"
+    "name": "JAMstack Conf Virtual",
+    "url": "https://jamstackconf.com",
+    "ticketsUrl": "https://ti.to/netlify/jamstack_virtual?_ga=2.82602134.1462953186.1588527254-604078549.1588527254",
+    "image": "https://jamstackconf.com/static/jamstack-conf-og.png",
+    "startDate": "2020-05-27",
+    "endDate": "2020-05-28",
+    "city": "Online",
+    "country": "Online",
+    "twitter": "@jamstackconf",
+    "type": "free"
   },
   {
-    "title": "Web Summit",
-    "startDate": "2020-11-02T00:00:00.000Z",
-    "endDate": "2020-11-05T00:00:00.000Z",
-    "url": "https://websummit.com/",
-    "ticketsUrl": "https://websummit.com/"
+    "name": "HolyJS Piter",
+    "url": "https://holyjs-piter.ru/en",
+    "ticketsUrl": "https://holyjs-piter.ru/en/registration/",
+    "image": "https://holyjs-piter.ru/assets/images/og_en.jpg",
+    "startDate": "2020-06-16",
+    "endDate": "2020-06-17",
+    "city": "Saint Petersburg",
+    "country": "Russia",
+    "twitter": "@HolyJSconf",
+    "type": "paid"
   },
   {
-    "title": "Web Summit",
-    "startDate": "2020-11-02T00:00:00.000Z",
-    "endDate": "2020-11-05T00:00:00.000Z",
-    "url": "https://websummit.com/",
-    "ticketsUrl": "https://websummit.com/"
+    "name": "JSCONF.BE",
+    "url": "https://www.jsconf.be",
+    "ticketsUrl": "https://organizer.runtheworld.today/ticket/1032/checkout/REGULAR",
+    "startDate": "2020-06-22",
+    "endDate": "2020-06-23",
+    "city": "Brussels",
+    "country": "Belgium",
+    "twitter": "@jsconfbe"
   },
   {
-    "title": "Web Summit",
-    "startDate": "2020-11-02T00:00:00.000Z",
-    "endDate": "2020-11-05T00:00:00.000Z",
-    "url": "https://websummit.com/",
-    "ticketsUrl": "https://websummit.com/"
+    "name": "OpenJS World",
+    "url": "https://events.linuxfoundation.org/openjs-world",
+    "ticketsUrl": "https://events.linuxfoundation.org/openjs-world/register/",
+    "image": "https://events.linuxfoundation.org/wp-content/uploads/2020/04/OpenJS_2020_PromoGraphics-10-2.jpg",
+    "startDate": "2020-06-23",
+    "endDate": "2020-06-24",
+    "city": "Online",
+    "country": "Online",
+    "twitter": "@openjsf"
   },
   {
-    "title": "Web Summit",
-    "startDate": "2020-11-02T00:00:00.000Z",
-    "endDate": "2020-11-05T00:00:00.000Z",
-    "url": "https://websummit.com/",
-    "ticketsUrl": "https://websummit.com/"
+    "name": "ForwardJS",
+    "url": "https://forwardjs.com/sanfrancisco",
+    "startDate": "2020-07-20",
+    "endDate": "2020-07-24",
+    "city": "San Francisco, CA",
+    "country": "U.S.A.",
+    "twitter": "@forwardjs"
   },
   {
-    "title": "Web Summit",
-    "startDate": "2020-11-02T00:00:00.000Z",
-    "endDate": "2020-11-05T00:00:00.000Z",
-    "url": "https://websummit.com/",
-    "ticketsUrl": "https://websummit.com/"
+    "name": "CascadiaJS",
+    "url": "https://2020.cascadiajs.com",
+    "ticketsUrl": "https://2020.cascadiajs.com/tickets",
+    "startDate": "2020-09-01",
+    "endDate": "2020-09-02",
+    "city": "Online",
+    "country": "Online",
+    "cfpUrl": "https://2020.cascadiajs.com/cfp",
+    "cfpEndDate": "2020-05-15",
+    "twitter": "@cascadiajs",
+    "type": "paid"
   },
   {
-    "title": "Web Summit",
-    "startDate": "2020-11-02T00:00:00.000Z",
-    "endDate": "2020-11-05T00:00:00.000Z",
-    "url": "https://websummit.com/",
-    "ticketsUrl": "https://websummit.com/"
+    "name": "React Native EU",
+    "url": "https://www.react-native.eu",
+    "ticketsUrl": "https://ti.to/react-native-eu/2020",
+    "image": "https://uploads-ssl.webflow.com/5e0b4500b1dab302ef17b0f0/5e9e0545558ebf7e01e88485_Open%20Graph%20-%20Virtual%20Edition.png",
+    "startDate": "2020-09-03",
+    "endDate": "2020-09-04",
+    "city": "Wroclaw",
+    "country": "Poland",
+    "twitter": "@react_native_eu"
   }
 ]

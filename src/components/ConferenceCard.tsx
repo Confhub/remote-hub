@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import LinkButton from "./LinkButton";
 import { formatDateRange } from "../utils/date";
 
 const Wrap = styled.div`
@@ -8,8 +9,15 @@ const Wrap = styled.div`
   border-radius: 4px;
 `;
 
+const Img = styled.img`
+  height: 150px;
+  object-fit: cover;
+  width: 100%;
+  background-color: #13131b;
+`;
+
 const ImgStab = styled.div`
-  height: 100px;
+  height: 150px;
   background-color: #13131b;
 `;
 
@@ -37,9 +45,9 @@ const LinkWrap = styled.div`
 
 const LinkUnderlined = styled.a`
   display: inline-block;
-  padding: 0 5px;
+  padding: 0 8px;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 32px;
   color: #1890ff;
 
   &:hover,
@@ -49,54 +57,35 @@ const LinkUnderlined = styled.a`
   }
 `;
 
-const LinkButton = styled.a`
-  display: inline-block;
-  padding: 0 5px;
-  text-decoration: none;
-  background: #1890ff;
-  color: #fff;
-  font-size: 14px;
-  line-height: 24px;
-  border-radius: 4px;
-  &:hover,
-  &:focus {
-    opacity: 0.7;
-  }
-`;
-
 export type Props = {
-  title: string;
+  name: string;
   date: string; // TODO: make it date
   startDate: string;
   endDate: string;
   url: string;
   ticketsUrl: string;
+  image?: string | null;
 };
 
 const ConferenceCard = ({
-  title,
+  name,
   startDate,
   endDate,
   url,
-  ticketsUrl
+  ticketsUrl,
+  image,
 }: Props) => {
   return (
     <Wrap>
-      <ImgStab />
+      {image ? <Img src={image} /> : <ImgStab />}
       <Content>
-        <Heading>{title}</Heading>
+        <Heading>{name}</Heading>
         <Text>{formatDateRange(startDate, endDate)}</Text>
         <LinkWrap>
           <LinkUnderlined href={url} target="_blank" rel="noopener noreferrer">
             Visit website
           </LinkUnderlined>
-          <LinkButton
-            href={ticketsUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Buy tickets
-          </LinkButton>
+          <LinkButton href={ticketsUrl}>Buy tickets</LinkButton>
         </LinkWrap>
       </Content>
     </Wrap>
